@@ -2,7 +2,7 @@
 Implementation of TypeAnywhere
 
 ### Decoder
-You can directly run `socketio_client.py` under `decoder/` to test the app. The modal weight is already included in the path.
+You can directly run `socketio_client.py` under `decoder/` to test the app. The modal weight can be downloaded [here](https://drive.google.com/file/d/1HP7zbijsYhrpu5fJdEtURdhZcFvIhnGw/view?usp=sharing).
 
 There are also training scripts in the `decoder/` path
 
