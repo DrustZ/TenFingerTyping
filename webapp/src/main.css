@@ -1,0 +1,82 @@
+#Title {
+    position: relative;
+    padding-top: 1em;
+}
+
+#Present {
+    background-color: rgba(223, 196, 43, 0.137);
+}
+
+#Present, #Commit {
+    margin-top: 1em;
+    border-width: 1px;
+/*    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;*/
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    min-height: 5em;
+    white-space: pre-wrap;
+}
+
+#Transcribe {
+    width: 100%;
+    resize: none;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+/*    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;*/
+    font-weight: 500;
+    font-size: 1.2em;
+    min-height: 5.5em;
+}
+
+#Candidatelist {
+    margin: 0 auto;
+    width: 100%;
+    border-width: 1px;
+    min-height: 3em;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    border: solid gray;
+    border-radius: 10px;
+}
+
+#SettingDevider {
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+#AlignBtn {
+    text-align: right;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+#phraseCount {
+    float: left;
+}
+
+#kbpic {
+    margin-top: 2em;
+}
+
+.candidate {
+    text-align: center;
+}
+
+.cursorspan {
+    background: yellowgreen;
+    white-space: pre-wrap;
+}
+
+.selcandidate {
+    background-color: sandybrown;
+}
+
+.correction {
+    background-color: yellow;
+}
+
+.sandybrown {
+    background-color: sandybrown;
+}
+

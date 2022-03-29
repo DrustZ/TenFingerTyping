@@ -1,0 +1,94 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ten Finger Typing</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+</head>
+<body>
+
+    <div class="ui center aligned header" id="Title">
+        <h1>Type Anywhere</h1>
+    </div>
+    <div class="ui fitted divider" style="border-color:olivedrab;"></div>
+    <div class="ui container">
+        <div class="ui segment" id="Present">Loading... </span> </div>
+        <div class="ui segment" id="Commit"><span class="cursorspan"> </span> </div>
+        <div class="ui raised segment" id="Transcribe" ><span class="cursorspan"> </span></div>
+        <div class="ui fitted divider" style="border-color:white;"></div>
+        <div class="ui equal width grid" id="Candidatelist">
+            <div class="column candidate">a</div>
+            <div class="column candidate">b</div>
+            <div class="column candidate">c</div>
+            <div class="column candidate">d</div>
+            <div class="column candidate">e</div>
+        </div>
+    </div>
+
+    <div class="ui text container" id="SettingDevider">
+        <div id="AlignBtn" class="ui stackable">
+            <span id="phraseCount" >Phrase Count </span>
+            
+            <button class="ui tiny button" id="Redo" disabled="disabled">
+                <i class="undo icon"></i>Redo
+            </button>
+            
+            <button class="ui green button" id="Next">Next</button>
+        </div>
+        <div class="ui styled fluid accordion">
+            <div class="title">
+                <i class="dropdown icon"></i>
+                Settings
+            </div>
+            <div class="content">
+                <div class="ui list">
+                    <div class="item">
+                        <i class="small circle icon"></i>
+                        <div class="content">
+                            <div class="header">Upload Custom Phrase Set</div>
+                            <div class="description">
+                             <input type="file" id="fileInput"/><button class="ui mini button" id="upload">Upload</button>
+                            </div></div>
+                    </div>
+                    <div class="item">
+                        <i class="small circle icon"></i>
+                        <div class="content">
+                            <div class="header">Set Phrase Amount and Order</div>
+                            <div class="description">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" id="SetTotal">
+                                    <label>Stop test after <input type="number" id="numofPhrase" value="40" min="1" disabled="true"> phrases</label>
+                                </div>
+                                
+                                <button class="ui mini green button" id="Shuffle">Shuffle whole set</button>
+                            </div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui text container">
+        <div class="right aligned column ">
+            <div class="ui action mini input">
+              <input type="text" placeholder="Log" id="Filename">
+              <select class="ui dropdown" id="Selectformat">
+                <option value="0">.json</option>
+                <option value="1">.csv</option>
+              </select>
+                &nbsp;
+                <button class="small ui icon blue button" id="Download"> Download log</button>
+                &nbsp;
+            </div>
+        </div>
+    </div>
+
+    <img class="ui centered big image" id="kbpic" src="./kbpic.png">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
+    <script src="./Tseq.js"></script>
+    <script src="./index.js"></script>    
+</body>
+</html>
