@@ -2,6 +2,7 @@
 Implementation of TypeAnywhere
 
 (Click to watch the demo on youtube)
+
 [![TypeAnywhere Demo](http://i3.ytimg.com/vi/WDIp7moK0wo/hqdefault.jpg)](https://www.youtube.com/watch?v=WDIp7moK0wo)
 
 
