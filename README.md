@@ -1,6 +1,10 @@
 # TenFingerTyping
 Implementation of TypeAnywhere
 
+(Click to watch the demo on youtube)
+[![TypeAnywhere Demo](http://i3.ytimg.com/vi/WDIp7moK0wo/hqdefault.jpg)](https://www.youtube.com/watch?v=WDIp7moK0wo)
+
+
 ### Decoder
 You can directly run `socketio_client.py` under `decoder/` to test the app. The modal weight can be downloaded [here](https://drive.google.com/file/d/1HP7zbijsYhrpu5fJdEtURdhZcFvIhnGw/view?usp=sharing).
 
